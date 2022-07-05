@@ -1,9 +1,12 @@
 package model;
 
-public class Student {
+public abstract class  Student {
 
-    String name;
-    int id;
+   protected String name;
+    protected int id;
+
+public abstract void sayHi();
+
 
 
 

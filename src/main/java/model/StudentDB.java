@@ -30,7 +30,7 @@ public class StudentDB {
     public Student randomStudent(){
 
         int a = (int) (Math.random() * students.length) ;
-       return  students[a];
+        return  students[a];
 
     }
 
